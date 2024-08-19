@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* biasanya ni juga ngeset fontnya kalau misal fontnnya mau di ganti */
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(bg-header.png);
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.header h1{
+    color: white;
+    font-size: 70px;
+}
+
+.header h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+main .desc {
+    padding: 80px;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.desc p {
+    font-size: 30px;
+    text-align:center;
+    margin: 50px;
+    line-height: 2;
+}
+
+.desc span {
+    background-color: burlywood;
+}
+
+
+.content-pend{
+    width: 100%;
+    background-color: rgb(131, 160, 82);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+
+.content-pend .img-penduduk img{
+    width: 500px;
+}
+
+.content-pend .penduduk{
+    margin-right: 10vh;
+}
+
+.content-pend .penduduk h4{
+    font-size: 40px;
+    padding: 5px;
+    padding-right: 70px;
+    background-color: burlywood;
+    margin-bottom: 15px;
+}
+
+.content-pend .penduduk table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.content-pend .penduduk table td, th{
+    border: 1px solid burlywood;
+    text-align: left;
+    padding: 8px;
+}
+
+.content-pend .penduduk table tr:nth-child(even) {
+    background-color: burlywood;
+}
+
+.kecamatan {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.content-kec .kecamatan h2{
+    width: 500px;
+    font-size: 60px;
+    margin-right: 40px;
+}
+
+.content-kec .kecamatan span{
+    font-size: 70px;
+    background-color: rgb(131, 160, 82);
+}
+
+.content-kec .kecamatan .kec-list{
+    background-color: burlywood;
+    width:fit-content;
+    margin-top: 20px;
+    padding: 50px;
+    font-size: 25px;
+
+}
+
+.peta {
+    margin: 80px;
+    display: flex;
+    align-items: center;
+}
+.peta .mapouter {
+    position: relative;
+    text-align: right;
+    height: 560px;
+    width: 820px;
+}
+
+.peta .mapouter .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 560px;
+    width: 820px;
+}
+
+.peta h2 {
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.peta span{
+    background-color: burlywood;
+    font-size: 50px;
+}
+
+footer{
+    margin-top: 20vh;
+    padding-bottom: 50px;
+    background-color: rgb(131, 160, 82);
+}
+
+footer .upper-footer{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: 23px;
+}
+
+.upper-footer .feedback {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.upper-footer .feedback h4{
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.lower-footer {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+}
+
+
